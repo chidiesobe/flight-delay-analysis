@@ -23,7 +23,7 @@
 - [Future Works](#future-works)
 
 # [PREDICTING AIRLINE DELAY](#project-title)
-This analysis aims to analyse a Kaggle dataset containing historical flight data from 18 airline operators in the United States of America. The goal is to develop a predictive model that anticipates airline delays, enhancing travel planning and operational efficiency. By leveraging historical data, this model will empower travellers to make informed decisions, help airlines optimise resource allocation, and mitigate financial implications. Proactive communication and improved customer experiences are envisioned, contributing to enhanced safety, compliance, and overall satisfaction within the aviation industry.
+This analysis focuses on examining a dataset comprising historical flight information from 18 airline operators within the United States. The objective is to construct a predictive model that can anticipate airline delays, ultimately improving travel planning and operational efficiency. Utilizing past data, this model aims to enable travelers to make well-informed choices, assist airlines in efficiently allocating resources, and reduce financial impacts. The goal is to enhance communication, provide proactive measures, and elevate customer experiences, thus promoting safety, compliance, and overall satisfaction within the aviation sector.
 
 ## [Project Objectives](#project-objectives)
 - Analyze historical flight data from 18 airline operators.
