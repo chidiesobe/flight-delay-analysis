@@ -75,12 +75,12 @@ There is an option to install each library in the requirements.txt file individu
 `pip install pandas`
 
 # [Folder Structure](#folder-structure)
-- airport/
+- **airport/**
   - airline_delay.ipynb   
   - visualizations/
   - README.md    
   - CODE_OF_CONDUCT.md    
-  - requirements.t
+  - requirements.txt
 
 # [Contributing](#contributing)
 We welcome contributions to improve this project! To contribute, follow these steps:
