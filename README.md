@@ -40,7 +40,7 @@ This analysis focuses on examining a dataset comprising historical flight inform
 
 
 # [Features](#features)
-The analysis begins by importing the necessary libraries and conducting exploratory data analysis to gain insightful information regarding the dataset. Following this, supervised machine learning models, namely Random Forest and K-Nearest Neighbor, are applied. The goal is to give readers insights into the factors contributing to flight delays.
+The analysis begins by importing the necessary libraries and conducting exploratory data analysis to gain insightful information regarding the dataset. Following this, supervised machine learning models, namely Random Forest is applied. The goal is to give readers insights into the factors contributing to flight delays.
 
 # [Technologies](#technologies)
 The project utilizes the following technologies and Python libraries:
@@ -56,7 +56,7 @@ The project utilizes the following technologies and Python libraries:
     - GridSearchCV: Employed for hyperparameter tuning using cross-validated grid search.
     - RandomForestClassifier: A machine learning algorithm used for classification tasks.
     - roc_curve, roc_auc_score, accuracy_score, classification_report, confusion_matrix: Functions for evaluating machine learning model performance.
-    - Joblib: Utilized for parallel computing and efficient caching, mainly using parallel_backend and Memory.
+- Joblib: Utilized for parallel computing and efficient caching, mainly using parallel_backend and Memory.
 
 These technologies are fundamental in performing data analysis, visualization, preprocessing, modelling, and evaluation within the project.
 
@@ -67,19 +67,21 @@ The installation is straightforward and will require you only to run the command
 
 This command will read the **requirements.txt** file and install all the listed dependencies, including joblib, matplotlib, numpy, pandas, seaborn, and sklearn since the time module is a fundamental part of Python. The installation will be done using the most recent version of the libraries at the time of installation since versions are not included in the **requirement.txt**.
 
-# [Usage](#usage)
-The fastest way to get this project running would be to install [Anacoda](https://www.anaconda.com/). After the installation, you open the Jupyter Notebook and open the folder containing the .ipynb file. Download the [dataset from Kaggle](https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delay) and place it in the same folder as the .ipynb file.
-
 There is an option to install each library in the requirements.txt file individually by typing **pip install** followed by the library name as shown below. 
 
 `pip install pandas`
+
+# [Usage](#usage)
+The fastest way to get this project running would be to install [Anacoda](https://www.anaconda.com/). After the installation, you open the Jupyter Notebook and open the folder containing the .ipynb file. Download the [dataset from Kaggle](https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delay) and place it in the same folder as the .ipynb file.
 
 # [Folder Structure](#folder-structure)
 - **airport/**
   - airline_delay.ipynb   
   - visualizations/
-  - README.md    
-  - CODE_OF_CONDUCT.md    
+  - README.md  
+  - md/
+    - ABBREVIATION.md  
+    - CODE_OF_CONDUCT.md    
   - requirements.txt
 
 # [Contributing](#contributing)
@@ -254,7 +256,7 @@ The additional table below shows the top 20 most delayed routes and the number o
 # [Correlation Matrix](#correlation-matrix)
 ![Weeks with the most delays](/visualisations/correlation-matix.png)
 
-The correlation matrix provides insights into the linear relationships between pairs of variables. Here's an analysis of the correlation matrix you provided:
+The correlation matrix provides insights into the linear relationships between pairs of variables. Below is an analysis of the correlation:
 
 - The magnitude of Correlation: The correlation values range from -1.00 to 1.00. A value closer to 1.00 or -1.00 indicates a stronger linear relationship, while values closer to 0 suggest a weaker relationship.
 
